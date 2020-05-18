@@ -13,31 +13,24 @@
 </head>
 <body>
     
-   <!--Navigation section-->
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">ADjiP</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Accueil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Politique</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Memmbres</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-   <!--End of Navigation section-->
+   
+   <div class="container mt-5">
+       <div class="row mt-5">
+           <div class="col-md-6 mx-auto mt-5">
+                <form action="" method="post">
+                    <div class="form-group">
+                        <input type="text" name="username" placeholder="Username" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" placeholder="Password" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" name="submit" value="Se connecter" class="btn btn-info">
+                    </div>
+                </form>
+           </div>
+       </div>
+   </div>
 
 
 
